@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans';
+}
+
+.header {
+    min-height: 739px;
+    background-image: url(../img/head_mountains.jpg);
+    background-repeat: no-repeat;
+}
+
+.header__text {
+    color: white;
+    margin-bottom: 40px;
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__text__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+
+.header__text__text-small {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+}
+
+.header .header__searchbar {
+    height: 51px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header input[type=text] {
+    text-align: center;
+    width: 40%;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .header .header__searchbar button {
+    width: 15%;
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #5474FD;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header .header__searchbar button:hover {
+    background: #ccc;
+  }
+
+  .header .header__searchbar button {
+      font-size: 14px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .header .header__searchbar button svg {
+      stroke: white;
+      margin-left: 5px;
+  }
+
+  @media screen and (max-width: 660px) {
+    .header input[type=text] {
+        text-overflow: ellipsis;
+        width: 40%;
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+      }
+
+      .header .header__searchbar button {
+        width: 15%;
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #5474FD;
+        font-size: 0;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+}
+
+  .scroll {
+      margin-top: 15%;
+      margin-left: 45%;
+      margin-right: 45%;
+      color: white;
+      width: 100px;
+      height: 40px;
+      cursor: pointer;
+      text-align: center;
+  }
+
+.scroll__text {
+    margin: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 81px;
+    background: #5474FD;
+}
+
+.menu__logo {
+    color: white;
+    margin-left: 15%;
+}
+
+.menu__links {
+    margin-left: 12%;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu__links a {
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.choose {
+    display: flex;
+    justify-content: space-between;
+    min-height: 685px;
+    background-image: url(../img/choose_eveningcity.jpg);
+    background-repeat: no-repeat;
+}
+
+.choose__container {
+    color: white;
+    padding-top: 200px;
+    margin-left: 15%;
+    width: 30%;
+    height: 377px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.choose__container__title {
+    margin: 5% 0;
+    font-size: 33px;
+}
+
+.choose__container__text-small {
+    font-size: 16px;
+}
+
+.choose__container button {
+    margin-top: 7%;
+    width: 225px;
+    height: 61px;
+    padding: 15px;
+    background: #5474FD;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.choose__images {
+    margin-right: 15%;
+    padding-top: 120px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+#riverhouse {
+    margin-right: 15%;
+    margin-left: -15%;
+}
+
+#mounting {
+    margin-right: -15%;
+    margin-left: 15%;
+}
+
+.search {
+    text-align: center;
+    padding: 0 10%;
+    min-height: 338px;
+    background: #333333;
+}
+
+.search__container {
+    font-size: 27px;
+    color: white;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search__container__search {
+    cursor: pointer;
+    stroke: #5474FD;
+}
+
+.search__container__check {
+    cursor: pointer;
+    stroke: #F16060;
+}
+
+.search__container__like {
+    cursor: pointer;
+}
+
+.search__container__like svg{
+    stroke: #00A2FF;
+}
+
+.spain-first {
+    position: relative;
+    min-height: 700px;
+    background-image: url(../img/spain-first_modernhouse.jpg);
+    background-repeat: no-repeat;
+}
+
+.spain-first__container {
+    padding: 3%;
+    position: absolute;
+    background: rgba(22, 20, 20, 0.88);
+    color: white;
+    top: 200px;
+    left: 15%;
+    width: 30%;
+    min-height: 270px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.spain-first__container button {
+    margin-top: 10%;
+    width: 80%;
+    height: 61px;
+    padding: 20px;
+    background: #5474FD;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.spain-first__container__title {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 10% 0;
+}
+
+.spain-first__container__title-small {
+    font-size: 19px;
+}
+
+.spain-second {
+    position: relative;
+    min-height: 700px;
+    background-image: url(../img/spain-second_cliffs.jpg);
+    background-repeat: no-repeat;
+}
+
+.spain-second__container {
+    padding: 3%;
+    position: absolute;
+    background: rgba(22, 20, 20, 0.88);
+    color: white;
+    top: 200px;
+    right: 15%;
+    width: 30%;
+    min-height: 270px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.spain-second__container button {
+    margin-top: 10%;
+    width: 80%;
+    height: 61px;
+    padding: 20px;
+    background: #5474FD;
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.spain-second__container__title {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 10% 0;
+}
+
+.spain-second__container__title-small {
+    font-size: 19px;
+}
+
+.tourist {
+    min-height: 731px;
+    background-image: url(../img/tourist_man.jpg);
+    background-repeat: no-repeat;
+}
+
+.tourist__title {
+    font-size: 33px;
+    color: white;
+    padding-top: 150px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.tourist__container {
+    margin: 0 15%;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.tourist__container__text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.tourist__container__text-title {
+    font-size: 17px;
+    margin: 5% 0 5% 5%;
+}
+
+.tourist__container__text-small {
+    font-size: 14px;
+    margin: 0 5% 5% 5%;
+}
+
+.tourist__container__image {
+    height: 230px;
+}
+
+.quotes {
+    color: #5474FD;
+    font-size: 25px;
+    padding-bottom: -10px;
+}
+
+.footer {
+    min-height: 269px;
+    background: #232323;
+}
+
+.footer__container {
+    color: white;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.footer__container__title {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.footer__container__text-small {
+    font-size: 16px;
+}
+
+.footer__container__icons {
+    margin: 30px;
+}
+
+.footer__container__icons svg {
+    cursor: pointer;
+    stroke: white;
+}
